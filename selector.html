@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixed selector</title>
+    <style>
+        p{
+           color: blueviolet;
+        }
+        #boss1{
+            font-size: 26px;
+        }
+        .red{
+            color:red;
+        }
+        .bold{
+            font-weight: 1000;
+        }
+        .background{
+            background-color: beige;
+            width: 50%;
+        }
+        .yellow,.backg{
+           color: yellow;
+           background-color: blue;
+           width: 48%;
+        }
+
+        *{
+            /* margin: 0; */
+        }
+        input[type = "password"]{
+            color: blueviolet;
+        }
+        .boss{
+            color: aqua;
+        }
+        .blog{
+            background-color: aquamarine;
+        }
+    </style>
+    
+</head>
+<body>
+    <h3>Elplore selector</h3>
+    <p class="red">my first <span class ="boss">line Css</p>
+    <p>my second line Css</p>
+    <p>my fourth line Css</p>
+    <p id="boss1">my fifth line Css</p>
+    <p class="red bold background">my third line Css</p>
+    <p class="bold">my fourth line Css</p>
+    <ol>
+        <li>class selector</li>
+        <li>id selector</li>
+        <li class="red bold">group selector</li>
+        <li >element selector</li>
+        <li class="yellow backg">universal selector</li>
+    </ol>
+    <div class="blog">
+        <h3>my blog</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, necessitatibus. Consequuntur nulla nostrum, ab officia, magnam reiciendis ex ullam tempore mollitia, ad quasi quod ea totam a facilis alias obcaecati.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse laudantium molestias, iure quos nam explicabo iusto harum facere doloremque ipsum temporibus perspiciatis quae ea possimus enim eligendi. Illum, non.</p>
+    </div>
+    <form action="">
+        <input type="text">
+        <input type="password" name=""
+         id="">
+    </form>
+</body>
+</html>
